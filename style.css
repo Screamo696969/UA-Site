@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-image: url(https://cutt.ly/MgGx3Zs);
+}
+
+/*меню*/
+
+nav{
+	z-index: 1;
+    background-color: rgba(70,70,70,0.3);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+}
+nav a{
+	color: white;
+    border-color: #454545;
+    margin: 18px;
+    display: inline-block;
+    padding: 0.5em 1em;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+nav a:hover {
+    background-color:#ffcc33;
+    margin:10px;
+}
+
+/*обложка*/
+
+#cover {
+  background-image: url(https://cutt.ly/ZgGhKjJ);
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+}
+#cossacks-image {
+  background-image: url(https://cutt.ly/XgGv2Lp);
+      height: 620px;
+    background-size: cover;
+}
+#cossacks-image p{
+	    top: 25px;
+    font-size: 25px!important;
+    position: relative;
+    margin: 0 auto;
+    width: 900px;
+}
+
+/*MAIN*/
+
+#main{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: white;
+	padding-top: 5px;
+	padding-bottom: 1px;
+}
+#main h3{
+	color: #464646;
+	font-size: 40px;
+	font-family: 'Mukta', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+#main p{
+	font-family: 'Mukta', sans-serif;
+	font-size: 20px;
+}
+#main-heading{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#main-heading h1{
+	font-size: 120px;
+	font-family: 'Archivo Black', sans-serif;
+	color: white;
+}
+#main-heading h2{
+	font-size: 50px;
+	font-family: 'Archivo Black', sans-serif;
+	color: white;
+}
+.block-image img{
+	height: 620px;
+    background-size: cover;
+}
+
+/*история*/
+
+#history figure{
+	margin-inline-start: 0px!important;
+}
+#history img{
+	width: 1000px;
+}
+
+/*подписи под изображениями*/
+em{
+    font-style: italic;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/*Линии*/
+
+.line {
+  width: 50%;
+  margin: 3em auto;
+  border-top: 1px solid #cccccc;
+}
+.line2{
+	width: 100%;
+    margin: 35px auto;
+    border-top: 5px solid #ffcc33;
+}
+
+/*география*/
+
+.geography-item{
+	display: inline-flex;
+    width: 300px;
+    padding: 5px;
+    border: 5px solid #ffcc33;
+    height: 500px;
+    left: 5px;
+    position: relative;
+    margin-left: 5px;
+}
+.geography-item figure{
+	margin-inline-start: 25px!important;
+    margin-inline-end: 11px!important;
+    margin-block-start: 0em!important;
+
+}
+.geography-item img{
+	width: 250px;
+	padding-top: 20px;
+}
+
+/*демография*/
+
+#language p{
+	font-family: 'Archivo Black', sans-serif !important ;
+	padding-left: 25px;
+    font-size: 17px!important;
+}
+
+/*культура*/
+
+.culture-gallery{
+	    display: inline-flex;
+}
+.culture-gallery img{
+	width: 500px;
+}
+
+/*футер*/
+
+#footer{
+	width: 1000px;
+    height: 60px;
+    background-color: #ffcc33;
+    margin: 0 auto;
+    padding-top: 1px;
+    padding-left: 30px;
+}
+#footer p{
+	color: white;
+	font-size: 18px;
+}
